@@ -24,7 +24,7 @@ typedef struct s_list
 	struct s_list	*next;
 }					t_list;
 
-// *function Protortypes (split is not in)
+// *function Protortypes
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
 int					ft_isalnum(int c);
