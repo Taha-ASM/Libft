@@ -6,7 +6,7 @@
 /*   By: tait-si <tait-si@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 21:36:57 by tait-si           #+#    #+#             */
-/*   Updated: 2026/10/18 11:30:29 by tait-si          ###   ########.fr       */
+/*   Updated: 2026/10/23 17:19:47 by tait-si          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putendl_fd(char *s, int fd)
 {
+	if (fd < 0)
+		return ;
 	ft_putstr_fd(s, fd);
 	ft_putchar_fd('\n', fd);
 }

@@ -21,7 +21,7 @@ $(NAME): $(OBJ)
 	ranlib $(NAME)
 
 .c.o:
-	$(CC) $(FLAGS) -Iincludes -c $< -o $@
+	$(CC) $(FLAGS) -c $< -o $@
 
 clean:
 	rm -f $(OBJ)

@@ -6,12 +6,11 @@
 /*   By: tait-si <tait-si@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/13 00:45:24 by tait-si           #+#    #+#             */
-/*   Updated: 2026/10/21 23:35:14 by tait-si          ###   ########.fr       */
+/*   Updated: 2026/10/24 11:08:01 by tait-si          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
-
 # define LIBFT_H
 
 # include <stdlib.h>

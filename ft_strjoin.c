@@ -6,7 +6,7 @@
 /*   By: tait-si <tait-si@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 14:22:24 by tait-si           #+#    #+#             */
-/*   Updated: 2026/10/17 11:44:15 by tait-si          ###   ########.fr       */
+/*   Updated: 2026/10/23 17:28:24 by tait-si          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int		s1_len;
 	int		s2_len;
 
-	if (!s1 || !s2)
-	{
+	if (s1 == NULL || s2 == NULL)
 		return (NULL);
-	}
 	s1_len = ft_strlen(s1);
 	s2_len = ft_strlen(s2);
 	arr = malloc((s1_len + s2_len + 1) * sizeof(char));
